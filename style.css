@@ -1,5 +1,7 @@
 .pretty-link {
   background-color: gray;
   border-radius: 15px;
+  list-style-type: none;
   margin: 10px;
+  width: 50%;
 }
