@@ -1,3 +1,5 @@
-build/*
+build/images/*
+build/style.css
+build/index.html
 node_modules
 package-lock.json
