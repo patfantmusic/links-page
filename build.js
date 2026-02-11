@@ -1,7 +1,7 @@
 const pug = require('pug');
 const links = {
   "Apple Music": {
-    icon: "images/apple.png",
+    icon: "/images/apple.png",
     url: "https://music.apple.com/us/artist/pat-fant/1716633019"
   },
   "BandCamp": {
