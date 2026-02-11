@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Pat Fant | Links
+    link(rel='stylesheet' href='style.css')
+  body
+    each data, name in links
+      .link-section
+        .pretty-box
+          a.link(
+            href=`${data.url}`
+            rel='noopener noreferrer'
+            target='_blank'
+          )
+            p #{name}
+            img.icon(src=`${data.icon}`)
