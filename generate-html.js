@@ -1,4 +1,5 @@
 const pug = require('pug');
+
 const links = {
   "Apple Music": {
     icon: "images/apple.png",
@@ -25,6 +26,6 @@ const links = {
     url: "https://music.youtube.com/channel/UCjEwwyHDu8meLpwyVOCVmrQ"
   }
 };
-// Compile the source code
+
 const compiledFunction = pug.compileFile('index.pug');
-console.log(compiledFunction({links: links}))
+console.log(compiledFunction({links: links}));
